@@ -1,5 +1,5 @@
 module.exports = {
-    timezone: process.env.MOMENT_TIMEZONE || "Europe/London",
+    timezone: process.env.MOMENT_TIMEZONE || "America/Los_Angeles",
     language: process.env.MOMENT_LANGUAGE || "en-US",
     homeassistant: {
         host: process.env.HA_HOST,
@@ -14,8 +14,8 @@ module.exports = {
     },
     rendering: {
         screenSize: {
-            width: 600,
-            height: 800
+            width: 758,
+            height: 1024
         },
         defaultWhiteBackground: true
     },
