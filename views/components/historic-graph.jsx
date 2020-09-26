@@ -112,7 +112,7 @@ const HistoricGraph = ({
                 axisLine={false}
                 ticks={temperatureTicks}
                 domain={[() => minTemperature, () => maxTemperature]}
-                tickFormatter={val => `${val} °C`}
+                tickFormatter={val => `${val} °F`}
             />
 
             <ReferenceLine y={0} stroke="#000" />
