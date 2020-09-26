@@ -28,6 +28,7 @@ class Cover extends React.Component {
             <html>
                 <head>
                     <link rel="stylesheet" href="/css/style.css" />
+                    <meta http-equiv="refresh" content="60" />
                 </head>
 
                 <body>
