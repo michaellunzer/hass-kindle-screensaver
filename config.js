@@ -14,8 +14,8 @@ module.exports = {
     },
     rendering: {
         screenSize: {
-            width: 848,
-            height: 1110
+            width: 768,
+            height: 1024
         },
         defaultWhiteBackground: true
     },

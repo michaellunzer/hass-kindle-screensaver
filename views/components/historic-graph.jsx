@@ -60,7 +60,7 @@ const HistoricGraph = ({
     return (
         <ComposedChart
             className="chart"
-            width={848}
+            width={768}
             height={462}
             margin={{ top: 10, left: 0, right: 0, bottom: 0 }}
         >
