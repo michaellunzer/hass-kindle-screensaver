@@ -10,6 +10,7 @@ module.exports = {
     },
     entities: {
         temperature: process.env.HA_ENTITY_TEMPERATURE,
+        darksky: process.env.HA_ENTITY_DARKSKY,
         weather: process.env.HA_ENTITY_WEATHER
     },
     rendering: {

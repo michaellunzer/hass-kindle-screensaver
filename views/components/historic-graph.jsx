@@ -61,7 +61,7 @@ const HistoricGraph = ({
         <ComposedChart
             className="chart"
             width={768}
-            height={462}
+            height={550}
             margin={{ top: 10, left: 0, right: 0, bottom: 0 }}
         >
             <CartesianGrid stroke="#f5f5f5" />

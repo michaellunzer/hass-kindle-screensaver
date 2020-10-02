@@ -22,6 +22,7 @@ You may simple set up the [sibbl/hass-kindle-screensaver](https://hub.docker.com
  * `HA_PORT=443`
  * `HA_TOKEN=eyJ0...` (you need to create this token in Home Assistant first)
  * `HA_ENTITY_TEMPERATURE=sensor.outdoor_temperature` (state of this entity is displayed as current temperature)
+ * `HA_ENTITY_DARKSKY=sensor.dark_sky_icon` (state of this entity is displayed as current temperature)
  * `HA_ENTITY_WEATHER=weather.openweathermap` (temperature and forecast attributes of this entity are used in the graph)
  * `MOMENT_TIMEZONE=Europe/London` (used for date/time calculations)
  * `MOMENT_LANGUAGE=en-US` (used for date/time formatting)

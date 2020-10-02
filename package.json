@@ -21,6 +21,7 @@
     "nib": "^1.1.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-skycons": "^0.8.8",
     "recharts": "^1.6.2",
     "stylus": "^0.54.5",
     "webshot": "^0.18.0"
