@@ -35,7 +35,7 @@ class Cover extends React.Component {
 
                 <body>
                     <Temperature value={parseFloat(temperature.state)} unit={temperature.attributes.unit_of_measurement} />
-                    <Darksky value={darksky.state} />
+                    {/* <Darksky value={darksky.state} /> */}
                     <Skycons
                         color="black"
                         type={SkyconsType.CLEAR_DAY}
