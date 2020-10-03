@@ -16,14 +16,14 @@ const fetchData = async () => {
     const chartEndDate = now.clone().add(12, "hours");
 
     let temperature,
-        darksky,
+        // darksky,
         weather = [],
         temperatureHistory = [],
         temperatureHistoryToday = [],
         temperatureHistoryYesterday = [];
     try {
         const [
-            darkskyRaw,
+            // darkskyRaw,
             temperatureRaw,
             temperatureHistoryRaw,
             weatherHistoryRaw
@@ -93,7 +93,7 @@ const fetchData = async () => {
 
     return {
         timestamp: new Date(),
-        darksky,
+        // darksky,
         temperature,
         temperatureHistory: temperatureHistory.filter(
             ({ time }) => time >= yesterdayDate && time < chartEndDate

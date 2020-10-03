@@ -11,7 +11,7 @@
                 "HA_PORT": 8123,
                 "HA_TOKEN": "<your HA token>",
                 "HA_ENTITY_TEMPERATURE": "sensor.outdoor_temperature",
-                "HA_ENTITY_DARKSKY": "sensor.dark_sky_icon",
+                // "HA_ENTITY_DARKSKY": "sensor.dark_sky_icon",
                 "HA_ENTITY_WEATHER": "weather.openweathermap",
                 "MOMENT_TIMEZONE": "Europe/London",
                 "MOMENT_LANGUAGE": "en-US"

@@ -3,6 +3,7 @@ import moment from "moment";
 import BatteryIndicator from "./components/battery-indicator";
 import HistoricGraph from "./components/historic-graph";
 import Temperature from "./components/temperature";
+// import Darksky from "./components/darksky";
 import Skycons, { SkyconsType } from "react-skycons";
 
 
@@ -14,6 +15,7 @@ class Cover extends React.Component {
             temperature,
             timestamp,
             weather,
+            // darksky,
             temperatureHistory,
             temperatureHistoryToday,
             temperatureHistoryYesterday,
@@ -36,12 +38,7 @@ class Cover extends React.Component {
                 <body>
                     <Temperature value={parseFloat(temperature.state)} unit={temperature.attributes.unit_of_measurement} />
                     {/* <Darksky value={darksky.state} /> */}
-                    <Skycons
-                        color="black"
-                        type={SkyconsType.CLEAR_DAY}
-                        animate={false}
-                        size={24}
-                        />
+                    {/* <Skycons color='white' icon='PARTLY_CLOUDY_DAY' /> */}
                     <div className="time">{time}</div>
                     <HistoricGraph weather={weather} temperatureHistory={temperatureHistory} temperatureHistoryToday={temperatureHistoryToday} temperatureHistoryYesterday={temperatureHistoryYesterday} chartRange={chartRange} now={now} />
                     <BatteryIndicator batteryLevel={battery} />
