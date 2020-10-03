@@ -41,7 +41,7 @@ const HistoricGraph = ({
 
         let temperatureTicks = [minTemperature - (minTemperature % 5)];
         while (temperatureTicks[temperatureTicks.length - 1] < maxTemperature) {
-            temperatureTicks.push(temperatureTicks[temperatureTicks.length - 1] + 15);
+            temperatureTicks.push(temperatureTicks[temperatureTicks.length - 1] + 5);
         }
         temperatureTicks = temperatureTicks.filter(x => x !== 0);
 
